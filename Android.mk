@@ -5,6 +5,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
+LOCAL_OVERRIDES_PACKAGES := Camera2
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := HWCamera2
 LOCAL_SRC_FILES := HwCamera2.apk
