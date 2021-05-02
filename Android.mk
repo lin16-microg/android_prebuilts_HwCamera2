@@ -28,4 +28,4 @@ $(shell mkdir -p $(TARGET_OUT)/priv-app/HWCamera2/lib/arm)
 $(shell cp -r $(LOCAL_PATH)/lib/arm/* $(TARGET_OUT)/priv-app/HWCamera2/lib/arm)
 
 # Links
-$(shell ln -s /system/lib/vndk-26/android.hidl.base@1.0.so $(TARGET_OUT)/priv-app/HWCamera2/lib/arm/android.hidl.base@1.0.so)
+$(shell ln -sf /system/lib/vndk-26/android.hidl.base@1.0.so $(TARGET_OUT)/priv-app/HWCamera2/lib/arm/android.hidl.base@1.0.so)
